@@ -1,5 +1,5 @@
 {
-    "root":"/home/wangzd/datasets/MOT",
+    "root":"/home/ycliu/data/JDEdata",
     "train":
     {
         "mot17":"./data/mot17.train",

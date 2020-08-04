@@ -31,7 +31,7 @@ def train(
     timme = timme[5:-3].replace('-', '_')
     timme = timme.replace(' ', '_')
     timme = timme.replace(':', '_')
-    weights_to = osp.join(weights_to, 'run' + timme)
+    weights_to = osp.join(weights_to)
     mkdir_if_missing(weights_to)
     if resume:
         latest_resume = osp.join(weights_from, 'latest.pt')
